@@ -17,5 +17,10 @@ git init &&
 git remote add origin https://github.com/Malien/MC-NCO1.12.git &&
 git fetch &&
 git checkout raw
-```. If you dont have git installed, consider googling on how to install and use git. If your `.minecraft` already contains git repo inside of it, delete hidden `.git` folder in it
+```
+If you dont have git installed, consider googling on how to install and use git. If your `.minecraft` already contains git repo inside of it, delete hidden `.git` folder in it
 - Launch the same forge version and enjoy your time
+
+## How to update
+Run `git pull`.
+If you want to checkout specific modpack version use `git checkout <version>`, like `git checkout v1.1`

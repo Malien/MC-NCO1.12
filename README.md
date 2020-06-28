@@ -11,5 +11,5 @@ Magic themed minecraft modpack on 1.12 called "Nu Cho Opyat 1.12?"
 - From the versions list choose the one that has forge-14.23.5.2854 written in it
 - Launch and make sure everything is running ok
 - Enter `.minecraft` folder and launch command prompt in it
-- Run `git clone https://github.com/Malien/MC-NCO1.12.git .`. If you dont have git installed, consider googling on how to install and use git. If your `.minecraft` already contains git repo inside of it, delete hidden `.git` folder in it
+- Run `git clone --single-branch --branch raw https://github.com/Malien/MC-NCO1.12.git .`. If you dont have git installed, consider googling on how to install and use git. If your `.minecraft` already contains git repo inside of it, delete hidden `.git` folder in it
 - Launch the same forge version and enjoy your time
